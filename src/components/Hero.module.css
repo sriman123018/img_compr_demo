@@ -1,0 +1,29 @@
+.photo {
+  animation: slideIn 1.3s ease-out;
+  object-fit: contain;
+}
+.Hero_Text {
+  animation: slideright 1.4s ease-out;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(-100vh); /* Start from top */
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0vh);
+    opacity: 1;
+  }
+}
+
+@keyframes slideright {
+  from {
+    transform: translatex(-100vw); /* Start from top */
+    opacity: 0;
+  }
+  to {
+    transform: translatex(0);
+    opacity: 1;
+  }
+}

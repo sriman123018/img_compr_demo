@@ -1,0 +1,20 @@
+html,
+body {
+  overflow-x: hidden;
+}
+.LOGO {
+  font-size: 25px;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  margin-left: 1.4rem;
+}
+
+.Reset {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  background: transparent;
+  border: none;
+  font-size: large;
+}

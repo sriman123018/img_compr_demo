@@ -9,11 +9,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div className="mb-5 w-[100vw]">
-      <Navbar></Navbar>
-      <Hero></Hero>
-      <ImageUpload></ImageUpload>
-      <Footer></Footer>
-      <ToastContainer />
+      <p>UNDER MAINTAMEMCE.............</p>
     </div>
   );
 }
